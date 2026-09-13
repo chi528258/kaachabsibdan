@@ -59,7 +59,7 @@ const motherTypes = {
   },
 
   5: {
-    icon: "🪽",
+    icon: "🆓",
     name: "自由な母ちゃん",
     description:
       "自由と冒険が大好き！子どもの「やってみたい」を応援する母ちゃんです。",
