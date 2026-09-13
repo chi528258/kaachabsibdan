@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>お母ちゃんタイプ診断</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <main class="container">
+
+    <section class="intro">
+      <div class="flower">🌷</div>
+
+      <h1>お母ちゃんタイプ診断</h1>
+
+      <p class="subtitle">
+        あなたはどんな<br>
+        お母ちゃんタイプ？
+      </p>
+
+      <p class="description">
+        生年月日から数秘術で<br>
+        あなたのお母ちゃんタイプを診断します。
+      </p>
+
+      <div class="birth-box">
+
+        <label>生年月日</label>
+
+        <div class="date-input">
+          <input type="number" id="year" placeholder="1990">
+          <span>年</span>
+
+          <input type="number" id="month" placeholder="1">
+          <span>月</span>
+
+          <input type="number" id="day" placeholder="1">
+          <span>日</span>
+        </div>
+
+        <button onclick="diagnose()">
+          診断する 🌸
+        </button>
+
+      </div>
+    </section>
+
+
+    <!-- 結果 -->
+    <section id="result" class="result hidden">
+
+      <p class="result-label">
+        あなたのお母ちゃんタイプは…
+      </p>
+
+      <div class="result-card">
+
+        <div id="resultIcon" class="result-icon">
+          🌸
+        </div>
+
+        <h2 id="typeName">
+          愛情たっぷり母ちゃん
+        </h2>
+
+        <p id="typeNumber" class="number">
+          数秘 6
+        </p>
+
+        <p id="typeDescription"></p>
+
+        <div class="detail">
+
+          <h3>💗 お母ちゃんとして</h3>
+          <p id="motherText"></p>
+
+          <h3>🌷 子どもへの接し方</h3>
+          <p id="childText"></p>
+
+          <h3>😂 怒ったとき</h3>
+          <p id="angryText"></p>
+
+          <h3>✨ あなたの魅力</h3>
+          <p id="charmText"></p>
+
+        </div>
+
+      </div>
+
+      <button class="again" onclick="resetDiagnosis()">
+        もう一度診断する
+      </button>
+
+    </section>
+
+  </main>
+
+
+  <footer>
+    <p>michibiki 数秘術</p>
+  </footer>
+
+
+  <script src="script.js"></script>
+
+</body>
+</html>
