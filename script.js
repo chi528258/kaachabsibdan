@@ -16,7 +16,7 @@ const motherTypes = {
   },
 
   2: {
-    icon: "🦌",
+    icon: "🐰",
     name: "寄り添う母ちゃん",
     description:
       "子どもの気持ちを大切にする、優しく温かな母ちゃん。相手の変化にもよく気がつきます。",
@@ -29,7 +29,7 @@ const motherTypes = {
   },
 
   3: {
-    icon: "🌈",
+    icon: "🏃",
     name: "楽しい母ちゃん",
     description:
       "明るく楽しいことが大好き！家庭に笑いを作るムードメーカータイプです。",
@@ -44,7 +44,7 @@ const motherTypes = {
   },
 
   4: {
-    icon: "🐉",
+    icon: "👷‍♀️",
     name: "守る母ちゃん",
     description:
       "家族の土台をしっかり作る、安定感のある母ちゃんです。",
@@ -74,7 +74,7 @@ const motherTypes = {
   },
 
   6: {
-    icon: "🌸",
+    icon: "💛",
     name: "愛情たっぷり母ちゃん",
     description:
       "家族への愛情が深く、みんなを包み込む温かな母ちゃんです。",
@@ -89,7 +89,7 @@ const motherTypes = {
   },
 
   7: {
-    icon: "🐺",
+    icon: "🌟",
     name: "見守る母ちゃん",
     description:
       "子どもをよく観察し、必要なときにそっと手を差し伸べる母ちゃんです。",
