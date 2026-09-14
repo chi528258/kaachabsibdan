@@ -218,3 +218,52 @@ footer {
   }
 
 }
+/* =========================
+   Naoプロフィール
+========================= */
+
+.profile {
+  margin: 35px auto 20px;
+  padding: 25px 20px;
+  max-width: 500px;
+  background: rgba(255, 255, 255, 0.75);
+  border-radius: 20px;
+  text-align: center;
+  border: 1px solid #eadbd0;
+}
+
+.profile h2 {
+  margin: 0 0 15px;
+  font-size: 20px;
+  color: #6b5848;
+}
+
+.profile p {
+  margin: 0 0 20px;
+  line-height: 1.9;
+  font-size: 14px;
+  color: #6b5848;
+}
+
+
+/* =========================
+   公式サイトボタン
+========================= */
+
+.official-button {
+  display: inline-block;
+  padding: 12px 28px;
+  background: #ffffff;
+  color: #6b5848;
+  text-decoration: none;
+  border: 1px solid #d8c8b8;
+  border-radius: 30px;
+  font-size: 14px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.official-button:hover {
+  background: #f7eee7;
+  transform: translateY(-2px);
+}
